@@ -46,7 +46,7 @@ current_time = now.strftime("%Y-%m-%d %H:%M")
 print(f"{current_time} 기준 삼성전자 주가 : {price}원")
 ```
 
-### 크롤링 코드 (핫 뉴스)
+### 크롤링 코드 (hot 뉴스)
 ```python
 import requests
 from bs4 import BeautifulSoup
@@ -133,4 +133,16 @@ Choose 1-4 [1]: 1
 */5 * * * * /usr/bin/python3 /home/username/crontab_test/finance_news.py >> /home/username/crontab_test/finance_news.log 2>&1
 ```
 
-### 실행 결과
+## 💡 실행 결과
+
+파일 구조 확인
+
+![image](https://github.com/user-attachments/assets/c1ba71e1-1157-4c4c-a1bc-aa91e0df2536)
+
+수집된 종목 시가 로그 정보
+
+![image](https://github.com/user-attachments/assets/fbd315c3-80de-43d5-be1e-ba5204546dda)
+
+수집된 hot 뉴스 로그 정보
+
+<img src="https://github.com/user-attachments/assets/52157f4e-aa9c-41e4-a0c6-272e4eda59e4" alt="image" style="width: 700px; height: auto;">
