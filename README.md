@@ -9,7 +9,7 @@
 
 ## 📌 프로젝트 개요
 
-리눅스에서 Crontab을 사용해서 매일 오전 9시에 script를 실행하여 https://finance.naver.com 에서 금융 정보 (원하는 종목의 시가, 핫 뉴스 등을) 저장하는 실습 진행
+리눅스에서 Crontab을 사용해서 매일 오전 9시에 script를 실행하여 https://finance.naver.com 에서 금융 정보 (원하는 종목의 시가, 핫 뉴스 등을) 저장하는 간단한 실습을 진행
 
 ## 🗂 코드 정보
 
