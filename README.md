@@ -45,6 +45,7 @@ current_time = now.strftime("%Y-%m-%d %H:%M")
 # 결과 출력
 print(f"{current_time} 기준 삼성전자 주가 : {price}원")
 ```
+
 ### 크롤링 코드 (hot 뉴스)
 ```python
 import requests
@@ -101,8 +102,6 @@ for idx, news in enumerate(top_news, 1):
     print()
 ```
 
-
-
 ### Crontab 설정 코드
 
 ```shell
@@ -118,12 +117,12 @@ Select an editor.  To change later, run 'select-editor'.
 Choose 1-4 [1]: 1
 
 # 매일 오전 9시에 정보 받아오는 거
-# 0 9 * * * /usr/bin/python3 /home/username/mission/stock_price.py >> /home/username/mission/stock_price_log.log 2>&1
+# 0 9 * * * /usr/bin/python3 /home/username/crontab_test/stock_price.py >> /home/username/crontab_test/stock_price.log 2>&1
+# 0 9 * * * /usr/bin/python3 /home/username/crontab_test/finance_news.py >> /home/username/crontab_test/finance_news.log 2>&1
 
 # 테스트 동안엔 정상 동작하는지 확인하기 위해 5분마다 정보 받아오기
-*/5 * * * * /usr/bin/python3 /home/username/mission/stock_price.py >> /home/username/mission/stock_price_log.log 2>&1
+*/5 * * * * /usr/bin/python3 /home/username/crontab_test/stock_price.py >> /home/username/crontab_test/stock_price.log 2>&1
+*/5 * * * * /usr/bin/python3 /home/username/crontab_test/finance_news.py >> /home/username/crontab_test/finance_news.log 2>&1
 ```
-
-
 
 ### 실행 결과
