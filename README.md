@@ -46,7 +46,7 @@ current_time = now.strftime("%Y-%m-%d %H:%M")
 print(f"{current_time} 기준 삼성전자 주가 : {price}원")
 ```
 
-### 크롤링 코드 (hot 뉴스)
+### 크롤링 코드 (핫 뉴스)
 ```python
 import requests
 from bs4 import BeautifulSoup
