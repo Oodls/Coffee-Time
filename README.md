@@ -5,7 +5,7 @@
 | 이승준 | 이주원 |
 |:-----------:|:-----------:|
 | <img width="120px" src="https://avatars.githubusercontent.com/Oodls"/> | <img width="120px" src="https://avatars.githubusercontent.com/2oo1s"/> |
-| [@leesj000603](https://github.com/leesj000603) | [@2oo1s](https://github.com/2oo1s) |
+| [@Oodls](https://github.com/Oodls) | [@2oo1s](https://github.com/2oo1s) |
 
 ## 📌 프로젝트 개요
 
